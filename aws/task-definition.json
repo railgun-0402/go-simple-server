@@ -1,7 +1,7 @@
 {
   "family": "go-simple-server",
-  "taskRoleArn": "arn:aws:iam::997623562234:role/go-simple-server-ecs-task",
-  "executionRoleArn": "arn:aws:iam::997623562234:role/go-simple-server-ecs",
+  "taskRoleArn": "arn:aws:iam::xxxxxx:role/go-simple-server-ecs-task",
+  "executionRoleArn": "arn:aws:iam::xxxxxx:role/go-simple-server-ecs",
   "networkMode": "awsvpc",
   "cpu": "256",
   "memory": "512",
