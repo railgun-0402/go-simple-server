@@ -36,7 +36,7 @@ func (s *Server) HealthHandler(ctx *gin.Context) {
 
 // リクエスト数を計算
 func (s *Server) CounterHandler(ctx *gin.Context) {
-	counter := atomic.AddInt64(&s.counter, 1)
+	counter := atomic.AddInt64(&s.counter, 2)
 	ctx.JSON(200, gin.H{"counter": counter})
 }
 
